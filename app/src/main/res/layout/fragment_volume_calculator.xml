@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VolumeCalculator">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:text="VOLUME"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:id="@+id/persegi4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="185dp"
+        android:src="@drawable/gambar_balok"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rectangle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="29dp"
+        android:text="Balok"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/persegi4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputPersegi4"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Type here"
+        app:layout_constraintStart_toEndOf="@id/persegi4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/lingkaran"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="338dp"
+        android:src="@drawable/gambar_tabung"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lingkaran_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:text="Tabung"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/lingkaran"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/persegi4" />
+
+    <EditText
+        android:id="@+id/inputLingkaran"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Type here"
+        app:layout_constraintStart_toEndOf="@id/persegi4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/segitiga"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/gambar_piramid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/segitiga_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Limas"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/segitiga"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/inputSegitiga"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Type here"
+        app:layout_constraintStart_toEndOf="@id/persegi4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSubmitRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="30sp"
+        android:text="Submit"
+        android:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
